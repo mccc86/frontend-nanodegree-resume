@@ -2,19 +2,19 @@
 
 var bio = 
 	{
-	"name": "claudia cedeno",
-	"role": "Web Dev",
+	"name": "Claudia Cedeno",
+	"role": "Web Developer",
 	"contacts": {
-		"mobile": "4560034567",
-		"email": "clau@me.com",
+		"mobile": "5550004433",
+		"email": "mccc86@gmail.com",
 		"github": "mccc86",
 		"twitter": "@cruisetiki",
 		"location": "Los Angeles, California, USA"
 		},
-	"pictureURL": "images/fry.jpg",
+	"pictureURL": "http://placekitten.com/250/300",
 	"welcomeMessage": "Welcome to my Resume",
 	"skills": [
-		"coding", "math", "bilingual"
+		"jQuery", "HTML", "CSS", "Javascript", "Spanish", "WordPress"
 		],
 	"display": function displayBio()
 			{
@@ -43,7 +43,7 @@ var bio =
 				$("#header").append(HTMLskillsStart);
 
 				for(var i = 0; i < bio.skills.length; i++){
-					$("#header").append(HTMLskills.replace("%data%", bio.skills[i]));
+					$("#skills").append(HTMLskills.replace("%data%", bio.skills[i]));
 					}
 			}
 } /* end of bio object*/
