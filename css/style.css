@@ -89,6 +89,7 @@ a {
 #skillsH3 {
   color: #F5AE23;
   display: none;
+  list-style:none;
 }
 
 .orange {

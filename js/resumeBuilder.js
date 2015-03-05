@@ -43,7 +43,7 @@ var bio =
 				$("#header").append(HTMLskillsStart);
 
 				for(var i = 0; i < bio.skills.length; i++){
-					$("#skills").append(HTMLskills.replace("%data%", bio.skills[i]));
+					$("#skillsH3").append(HTMLskills.replace("%data%", bio.skills[i]));
 					}
 			}
 } /* end of bio object*/
